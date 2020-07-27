@@ -131,7 +131,7 @@ export class Gaussian {
  * @return {Gaussian}
  */
 export function gaussian(mean: number, variance: number): Gaussian {
-  return new Gaussian(mean, variance)
+  return new Gaussian(mean, variance);
 }
 
 /**
