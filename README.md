@@ -5,7 +5,7 @@ A Typescript model of the [Normal](http://en.wikipedia.org/wiki/Normal_distribut
 ## API
 ### Creating a Distribution
 ```(typescript)
-import { Gaussian, gaussian } from 'https://github.com/deanlyz/gaussian'
+import { Gaussian, gaussian } from 'https://deno.land/x/gaussian/mod.ts'
 
 // Create a distribution
 const distribution = new Gaussian(mean, variance)
